@@ -4,10 +4,18 @@ import mysql.connector
 
 
 def connectionBD():
-    mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        passwd="",
-        database="empresa"
-    )
-    return mydb
+    try:
+        mydb = mysql.connector.connect(
+            host="localhost",
+            user="root",
+            password="",
+            database="empresa",
+            #auth_plugin='mysql_native_password',
+            #charset='utf8mb4',
+            #collation='utf8mb4_unicode_ci'
+        )
+        if mydb.is_connected():
+            print("Conexión exitosa a la base de datos")
+            return mydb
+    except mysql.connector.Error as e:
+        print(f"Error al conectar a la base de datos: {e}")
