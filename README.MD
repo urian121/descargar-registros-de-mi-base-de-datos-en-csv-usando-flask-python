@@ -24,9 +24,9 @@
 
 # requirements.txt con el comando;
 
-`pip install -r requirements.txt`
+`pip install -r requirements.txt
 
-` en el mismo se encuentran todas las dependecias del proyecto.
+en el mismo se encuentran todas las dependecias del proyecto.
 
  Nota: cuando vallas hacer una actualizacion del archivo requirements.txt
  debes estar dentro del entorno virtual pero no dentro de la carpera app solo en mi entorno.
