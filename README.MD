@@ -18,11 +18,11 @@
 
 `pip freeze > requirements.txt
 
-# (env)$ deactivate Para desactivar nuestro entono virtual
+(env)$ deactivate Para desactivar nuestro entono virtual
 
-# IMPORTANTE, para correr el proyecto solo debes ejecutar el archivo
+ IMPORTANTE, para correr el proyecto solo debes ejecutar el archivo
 
-# requirements.txt con el comando;
+ requirements.txt con el comando;
 
 pip install -r requirements.txt
 
