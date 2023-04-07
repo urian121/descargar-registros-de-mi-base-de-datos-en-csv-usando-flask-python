@@ -16,7 +16,7 @@
 
 # Crear/Actualizar el fichero requirements.txt:
 
-`pip freeze > requirements.txt`
+`pip freeze > requirements.txt
 
 # (env)$ deactivate Para desactivar nuestro entono virtual
 
@@ -24,7 +24,7 @@
 
 # requirements.txt con el comando;
 
-`pip install -r requirements.txt
+pip install -r requirements.txt
 
 en el mismo se encuentran todas las dependecias del proyecto.
 
