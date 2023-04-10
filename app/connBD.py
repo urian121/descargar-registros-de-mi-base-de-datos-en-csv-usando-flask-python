@@ -10,9 +10,9 @@ def connectionBD():
             user="root",
             password="",
             database="empresa",
-            #auth_plugin='mysql_native_password',
-            #charset='utf8mb4',
-            #collation='utf8mb4_unicode_ci'
+            # auth_plugin='mysql_native_password',
+            # charset='utf8mb4',
+            # collation='utf8mb4_unicode_ci'
         )
         if mydb.is_connected():
             print("Conexión exitosa a la base de datos")
