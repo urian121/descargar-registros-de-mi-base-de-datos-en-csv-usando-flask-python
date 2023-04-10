@@ -16,18 +16,18 @@
 
 # Crear/Actualizar el fichero requirements.txt:
 
-`pip freeze > requirements.txt`
+`pip freeze > requirements.txt
 
-# (env)$ deactivate Para desactivar nuestro entono virtual
+(env)$ deactivate Para desactivar nuestro entono virtual
 
-# IMPORTANTE, para correr el proyecto solo debes ejecutar el archivo
+ IMPORTANTE, para correr el proyecto solo debes ejecutar el archivo
 
-# requirements.txt con el comando;
+ requirements.txt con el comando;
 
-`pip install -r requirements.txt`
+pip install -r requirements.txt
 
-# en el mismo se encuentran todas las dependecias del proyecto.
+en el mismo se encuentran todas las dependecias del proyecto.
 
-# Nota: cuando vallas hacer una actualizacion del archivo requirements.txt
-
-# debes estar dentro del entorno virtual pero no dentro de la carpera app solo en mi entorno.
+ Nota: cuando vallas hacer una actualizacion del archivo requirements.txt
+ debes estar dentro del entorno virtual pero no dentro de la carpera app solo en mi entorno.
+ `
